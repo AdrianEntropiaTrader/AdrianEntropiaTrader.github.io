@@ -66,13 +66,13 @@
     });
   
     $(function(){
-      $("#last-updated-buying").load("data/last-updated-buying.html"); 
-      $("#last-updated-selling").load("data/last-updated-selling.html"); 
-      $("#buying-ores").load("data/buying-ores.html"); 
-      $("#buying-enmatters").load("data/buying-enmatters.html"); 
-      $("#buying-hunting-loots").load("data/buying-hunting-loots.html"); 
-      $("#buying-others").load("data/buying-others.html"); 
-      $("#selling-page").load("data/selling-page.html"); 
+      $("#last-updated-buying").load("data/last-updated-buying.html?" + new Date().getTime()); 
+      $("#last-updated-selling").load("data/last-updated-selling.html?" + new Date().getTime()); 
+      $("#buying-ores").load("data/buying-ores.html?" + new Date().getTime()); 
+      $("#buying-enmatters").load("data/buying-enmatters.html?" + new Date().getTime()); 
+      $("#buying-hunting-loots").load("data/buying-hunting-loots.html?" + new Date().getTime()); 
+      $("#buying-others").load("data/buying-others.html?" + new Date().getTime()); 
+      $("#selling-page").load("data/selling-page.html?" + new Date().getTime()); 
     });
   })(jQuery); // End of use strict
   
