@@ -10115,15 +10115,19 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  padding-right: 0;
+  padding-left: 0;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
+  max-width: 100%;
   width: 15rem;
 }
 
 .about-avatar {
+  max-width: 100%;
   width: 20rem;
   border: 3px solid #fff;
   border-radius: 50%;
@@ -10281,6 +10285,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .shop-image {
+  max-width: 100%;
   border-radius: 10px;
   -webkit-box-shadow: 4px 4px 9px 1px rgba(255,255,255,0.36);
   -moz-box-shadow: 4px 4px 9px 1px rgba(255,255,255,0.36);
