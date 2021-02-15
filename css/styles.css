@@ -10126,6 +10126,7 @@ h3 {
 }
 
 .about-avatar {
+  width: 20rem;
   border: 3px solid #fff;
   border-radius: 50%;
 }
