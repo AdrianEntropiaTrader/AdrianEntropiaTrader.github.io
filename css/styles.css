@@ -9982,6 +9982,11 @@ h3 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
+.without-padding {
+  padding-top: 0 !important
+}
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -10312,8 +10317,30 @@ form .row:first-child .floating-label-form-group {
 
 .shop-image {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   -webkit-box-shadow: 4px 4px 9px 1px rgba(255,255,255,0.36);
   -moz-box-shadow: 4px 4px 9px 1px rgba(255,255,255,0.36);
   box-shadow: 4px 4px 9px 1px rgba(255,255,255,0.36);
+}
+
+#shop-list td.stock {
+  float: right;
+}
+
+#shop-list td.stock span:not(.available) {
+  font-size: 0.7rem;
+  color: white;
+  background-color: rgb(172, 43, 43);
+  border-radius:10px;
+  padding: 4px 8px;
+  margin-left: 12px;  
+}
+
+#shop-list td.stock span.available {
+    font-size: 0.7rem;
+    color: white;
+    background-color: #218838;
+    border-radius:10px;
+    padding: 4px 8px;
+    margin-left: 12px;
 }
