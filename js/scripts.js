@@ -73,7 +73,7 @@
       $("#buying-hunting-loots").load("data/buying-hunting-loots.html?" + new Date().getTime()); 
       $("#buying-others").load("data/buying-others.html?" + new Date().getTime()); 
       $("#selling-page").load("data/selling-page.html?" + new Date().getTime()); 
-      $("#shop-list").load("data/shop-list.html?" + new Date().getTime()); 
+      $("#shop-items-list").load("data/shop-list.html?" + new Date().getTime()); 
     });
   })(jQuery); // End of use strict
   
