@@ -68,6 +68,7 @@
     $(function(){
       $("#last-updated-buying").load("data/last-updated-buying.html?" + new Date().getTime()); 
       $("#last-updated-selling").load("data/last-updated-selling.html?" + new Date().getTime()); 
+      $("#last-updated-shop").load("data/last-updated-shop.html?" + new Date().getTime()); 
       $("#buying-ores").load("data/buying-ores.html?" + new Date().getTime()); 
       $("#buying-enmatters").load("data/buying-enmatters.html?" + new Date().getTime()); 
       $("#buying-hunting-loots").load("data/buying-hunting-loots.html?" + new Date().getTime()); 
